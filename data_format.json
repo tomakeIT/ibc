@@ -1,0 +1,25 @@
+Trajectory(
+{'action': <tf.Tensor: shape=(1, 2), dtype=float32, numpy=array([[0.7623189 , 0.36837423]], dtype=float32)>,
+ 'discount': <tf.Tensor: shape=(1,), dtype=float32, numpy=array([1.], dtype=float32)>,
+ 'next_step_type': <tf.Tensor: shape=(1,), dtype=int32, numpy=array([1], dtype=int32)>,
+ 'observation': {'pos_agent': <tf.Tensor: shape=(1, 2), dtype=float32, numpy=array([[0.476459 , 0.3424383]], dtype=float32)>,
+                 'pos_first_goal': <tf.Tensor: shape=(1, 2), dtype=float32, numpy=array([[0.7623189 , 0.36837423]], dtype=float32)>,
+                 'pos_second_goal': <tf.Tensor: shape=(1, 2), dtype=float32, numpy=array([[0.85331404, 0.7652285 ]], dtype=float32)>,
+                 'vel_agent': <tf.Tensor: shape=(1, 2), dtype=float32, numpy=array([[0., 0.]], dtype=float32)>},
+ 'policy_info': (),
+ 'reward': <tf.Tensor: shape=(1,), dtype=float32, numpy=array([0.], dtype=float32)>,
+ 'step_type': <tf.Tensor: shape=(1,), dtype=int32, numpy=array([0], dtype=int32)>})
+
+ {'action': <tf.Tensor: shape=(1, 2), dtype=float32, numpy=array([[0.36743397, 0.6305274 ]], dtype=float32)>,
+ 'discount': <tf.Tensor: shape=(1,), dtype=float32, numpy=array([1.], dtype=float32)>,
+ 'next_step_type': <tf.Tensor: shape=(1,), dtype=int32, numpy=array([1], dtype=int32)>,
+ 'observation': {'pos_agent': <tf.Tensor: shape=(1, 2), dtype=float32, numpy=array([[0.42944485, 0.32769933]], dtype=float32)>,
+                 'pos_first_goal': <tf.Tensor: shape=(1, 2), dtype=float32, numpy=array([[0.36743397, 0.49606723]], dtype=float32)>,
+                 'pos_second_goal': <tf.Tensor: shape=(1, 2), dtype=float32, numpy=array([[0.14964333, 0.7594242 ]], dtype=float32)>,
+                 'vel_agent': <tf.Tensor: shape=(1, 2), dtype=float32, numpy=array([[0., 0.]], dtype=float32)>},
+ 'policy_info': {'target_goal': <tf.Tensor: shape=(1,), dtype=int32, numpy=array([0], dtype=int32)>},
+ 'reward': <tf.Tensor: shape=(1,), dtype=float32, numpy=array([0.], dtype=float32)>,
+ 'step_type': <tf.Tensor: shape=(1,), dtype=int32, numpy=array([0], dtype=int32)>})
+
+
+

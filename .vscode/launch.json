@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python3 运行 simple_particle_data_reader.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/simple_particle_data_reader.py",
+            "console": "integratedTerminal",
+            "python": "/home/jialeng/miniconda3/envs/ibc/bin/python",
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

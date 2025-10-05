@@ -25,6 +25,7 @@ The code for this project uses python 3.7+ and the following pip packages:
 python3 -m pip install --upgrade pip
 pip install \
   absl-py==0.12.0 \
+  gym==0.23.0 \
   gin-config==0.4.0 \
   matplotlib==3.4.3 \
   mediapy==1.0.3 \
@@ -35,6 +36,9 @@ pip install \
   keras==2.6.0 \
   tf-agents==0.11.0rc0 \
   tqdm==4.62.2
+conda install \
+  cudatoolkit==11.2.2 \
+  cudnn==8.1
 ```
 
 (Optional): For Mujoco support, see [`docs/mujoco_setup.md`](docs/mujoco_setup.md).  Recommended to skip it
